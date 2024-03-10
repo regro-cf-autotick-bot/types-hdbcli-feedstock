@@ -1,5 +1,5 @@
 {% set name = "types-hdbcli" %}
-{% set version = "2.19.0.20240106" %}
+{% set version = "2.19.0.20240310" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-hdbcli-{{ version }}.tar.gz
-  sha256: 48c1b4610bae761379fb2c972d915dd3d0596f09410c585ba30f811df6c04aa7
+  sha256: e71b375301b9a3c43f578aadb5551b96fa6b80e9320de0cffc6460a7ac4f075e
 
 build:
   noarch: python
